@@ -120,6 +120,7 @@
         border-radius: 0.5rem;
         background-color: #4b4b4b;
         margin: 0.5rem;
+        box-shadow: -18px 22px 24px -4px rgba(0,0,0,0.5),0px 10px 15px -3px rgba(0,0,0,0.1);
     }
 
     .grid-container {

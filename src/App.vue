@@ -26,6 +26,6 @@ export default {
     align-items: center;
     background-image: linear-gradient(45deg, rgb(52, 52, 52), rgb(255, 255, 255));
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
   }
 </style>
