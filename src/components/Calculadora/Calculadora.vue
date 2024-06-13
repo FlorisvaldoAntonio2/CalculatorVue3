@@ -83,6 +83,9 @@
                     result = members[index - 1] * members[index + 1]
                     break
                     case '/':
+                    if(members[index + 1] === 0) {
+                        return 'Error'
+                    }
                     result = members[index - 1] / members[index + 1]
                     break
                 }
@@ -105,8 +108,8 @@
                 members.splice(index - 1, 3, result)
                 return this.calculate(members)
             }
-
-            return members[0].toString()
+            //retorna o resultado com 2 casas decimais
+            return members[0].toFixed(2).toString()
         }
         
     }
